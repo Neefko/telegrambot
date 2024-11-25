@@ -33,18 +33,19 @@ class Database:
 
 
 db = Database()
-token = ''
+token = 'token'
 bot = telebot.TeleBot(token)
 
 gifk = {
     1: '''(●'◡'●)''',
     2: '''༼ つ ◕_◕ ༽つ''',
-    3: '''^_^'''
+    3: '''^_^''',
+    4: ''':) '''
 }
 
 
 def random_gif():
-    a = random.randint(1, 3)
+    a = random.randint(1, 4)
     return a
 
 
