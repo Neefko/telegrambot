@@ -42,12 +42,13 @@ gifk = {
     3: '''^_^''',
     4: ''':) ''', 
     5: '''-_-''', 
+    6: ''':) ''', 
 
 }
 
 
 def random_gif():
-    a = random.randint(1, 4)
+    a = random.randint(1, 6)
     return a
 
 
