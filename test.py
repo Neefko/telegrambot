@@ -44,12 +44,13 @@ gifk = {
     5: '''-_-''', 
     6: ''':) ''',
     7: ''';) ''', 
+    8: '''*_*''', 
 
 }
 
 
 def random_gif():
-    a = random.randint(1, 7)
+    a = random.randint(1, 8)
     return a
 
 
